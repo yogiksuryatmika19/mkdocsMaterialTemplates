@@ -46,11 +46,10 @@
     "docs/CSS",
     "docs/TailwindCSS",
     "/",
-    "docs",
     "docs/docs/Images",
     "docs/docs/Python"
   ],
-  "expandFolderOnClick": true,
+  "expandFolderOnClick": false,
   "spacesFolder": "Tags",
   "suppressedWarnings": [],
   "spaceSubFolder": ".space",

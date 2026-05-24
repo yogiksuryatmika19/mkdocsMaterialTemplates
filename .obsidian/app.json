@@ -2,5 +2,11 @@
   "attachmentFolderPath": "docs/Images",
   "alwaysUpdateLinks": true,
   "useMarkdownLinks": true,
-  "newLinkFormat": "relative"
+  "newLinkFormat": "relative",
+  "userIgnoreFilters": [
+    "docs/Images/",
+    "docs/javascripts/",
+    "docs/stylesheets/",
+    "index"
+  ]
 }

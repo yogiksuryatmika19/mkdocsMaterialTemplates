@@ -75,7 +75,7 @@
             }
           },
           {
-            "id": "970d3d865ebb64a8",
+            "id": "d3ff7f2983f601a6",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -89,7 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 236
   },
   "right": {
     "id": "fc53bdbf7bae9e20",
@@ -105,12 +105,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "docs/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of index"
             }
           },
           {
@@ -179,8 +180,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 311
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,13 +196,15 @@
   },
   "active": "65cfd01259dfa238",
   "lastOpenFiles": [
+    "docs/Images/index-1779628926735.png",
+    "docs/Untitled",
+    "docs/index.md",
     "docs/Images/index-1779627304964.png",
     "docs/Images/image-1.png",
     "docs/Python/arrange.txt",
     "docs/Python/Variables.md",
     "docs/Python",
     "docs/Images/image.png",
-    "docs/index.md",
     "docs/Images/image-2.png",
     "docs/Images/index-1779626305322.webp",
     "docs/Images/index-1779626146623.webp",
@@ -210,7 +212,6 @@
     "docs/Images/index-1779625988365.webp",
     "docs/Images/index-1779625865800.webp",
     "docs/Images/index-1779625799472.webp",
-    "docs/Images/index-1779625747523.webp",
     "docs/Python/Virtual Env.md",
     "docs/Python/Python.md",
     "docs/getting started/arrange.txt",
@@ -239,7 +240,6 @@
     "docs/Machine Learning/Categorial Data.md",
     "docs/Machine Learning/Bootstrap Aggregation.md",
     "docs/Machine Learning/AUC ROC Curve.md",
-    "docs/Machine Learning",
     "docs/Matplotlib/Grid.md",
     "docs/Matplotlib/Matplotlib Installation.md"
   ]

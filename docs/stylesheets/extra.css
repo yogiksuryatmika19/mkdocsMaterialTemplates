@@ -115,6 +115,10 @@
         margin-bottom: 15px;
     }
 
+    .md-nav__link:nth-child(0) {
+        pointer-events: none;
+    }
+
     /* --------------------------------- footer --------------------------------- */
     .md-footer-meta__inner {
         display: none;

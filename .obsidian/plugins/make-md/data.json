@@ -23,7 +23,7 @@
   "syncFormulaToFrontmatter": true,
   "spacesPerformance": false,
   "currentWaypoint": 0,
-  "enableFolderNote": true,
+  "enableFolderNote": false,
   "folderIndentationLines": true,
   "revealActiveFile": false,
   "spacesStickers": true,
@@ -46,7 +46,8 @@
     "docs/CSS",
     "docs/TailwindCSS",
     "/",
-    "docs"
+    "docs",
+    "docs/docs/Python"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",

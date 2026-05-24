@@ -11,12 +11,14 @@
             "id": "65cfd01259dfa238",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
+              "type": "markdown",
               "state": {
-                "path": "docs/Python"
+                "file": "docs/index.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "docs/Python"
+              "title": "index"
             }
           }
         ]
@@ -194,10 +196,23 @@
   },
   "active": "65cfd01259dfa238",
   "lastOpenFiles": [
+    "docs/Images/image-2.png",
+    "docs/Images/image-1.png",
+    "docs/Images/image.png",
+    "docs/index.md",
+    "docs/Images/index-1779626305322.webp",
+    "docs/Images/index-1779626146623.webp",
+    "docs/Images/index-1779625998145.webp",
+    "docs/Images/index-1779625988365.webp",
+    "docs/Images/index-1779625865800.webp",
+    "docs/Images/index-1779625799472.webp",
+    "docs/Images/index-1779625747523.webp",
+    "docs/Images/index.webp",
+    "docs/Python/Virtual Env.md",
+    "docs/Python/arrange.txt",
+    "docs/Python",
     "docs/Python/Variables.md",
     "docs/Python/Python.md",
-    "docs/index.md",
-    "docs/Python",
     "docs/getting started/arrange.txt",
     "docs/getting started/integration.md",
     "docs/getting started/installation.md",
@@ -206,8 +221,6 @@
     "docs/getting started/New Text Document.txt",
     "docs/New folder",
     "docs/Images/arrange.txt",
-    "docs/Images/index-1.png",
-    "docs/Images/index.png",
     "docs/Images",
     "Tags",
     "docs/Machine Learning/Scale.md",
@@ -228,14 +241,6 @@
     "docs/Machine Learning/AUC ROC Curve.md",
     "docs/Machine Learning",
     "docs/Matplotlib/Grid.md",
-    "docs/Matplotlib/Matplotlib Installation.md",
-    "docs/Matplotlib/Scatter.md",
-    "docs/Matplotlib/Pie Chart.md",
-    "docs/Matplotlib",
-    "docs/Images/Block & Inline-2.png",
-    "docs/Images/Block & Inline-1.png",
-    "docs/Images/Block & Inline.png",
-    "docs/Images/Pasted image 20260403113249.png",
-    "Pasted image 20260403113109.png"
+    "docs/Matplotlib/Matplotlib Installation.md"
   ]
 }

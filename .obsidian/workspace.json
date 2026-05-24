@@ -1,0 +1,242 @@
+{
+  "main": {
+    "id": "099810a54813ddf3",
+    "type": "split",
+    "children": [
+      {
+        "id": "59514a6bdb7b3bd2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "65cfd01259dfa238",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "57ff5a8525d7e8a9",
+    "type": "split",
+    "children": [
+      {
+        "id": "696ec471df637acb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "10fc212f9644d387",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "5b40a14b708bc3e1",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "652bed43bc953684",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "970d3d865ebb64a8",
+            "type": "leaf",
+            "state": {
+              "type": "mk-path-view",
+              "state": {},
+              "icon": "layout-grid",
+              "title": "Navigator"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "fc53bdbf7bae9e20",
+    "type": "split",
+    "children": [
+      {
+        "id": "39523e328f28754f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7ba301486e11bdb5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "78134f2599700b3a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "docs/Python/Format String.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Format String"
+            }
+          },
+          {
+            "id": "9ca7bb0ee89f56cc",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "docs/Python/Format String.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Format String"
+            }
+          },
+          {
+            "id": "68ea666807d14377",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "f0a50f5ca954f997",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "custom-sort:Toggle custom sorting": false
+    }
+  },
+  "active": "65cfd01259dfa238",
+  "lastOpenFiles": [
+    "docs/index.md",
+    "docs/Images/index-1.png",
+    "docs/Images/index.png",
+    "docs/Images",
+    "Tags",
+    "docs/Machine Learning/Scale.md",
+    "docs/Machine Learning/Train Test.md",
+    "docs/Machine Learning/Polynomial Regression.md",
+    "docs/Machine Learning/Multiple Regression.md",
+    "docs/Machine Learning/Linear Regression.md",
+    "docs/Machine Learning/KNN.md",
+    "docs/Machine Learning/K Means.md",
+    "docs/Machine Learning/Logistic Regression.md",
+    "docs/Machine Learning/Hierarchical Clustering.md",
+    "docs/Machine Learning/Grid Search.md",
+    "docs/Machine Learning/Decision Tree.md",
+    "docs/Machine Learning/Cross Validation.md",
+    "docs/Machine Learning/Confusion Matrix.md",
+    "docs/Machine Learning/Categorial Data.md",
+    "docs/Machine Learning/Bootstrap Aggregation.md",
+    "docs/Machine Learning/AUC ROC Curve.md",
+    "docs/Machine Learning",
+    "docs/Matplotlib/Grid.md",
+    "docs/Matplotlib/Matplotlib Installation.md",
+    "docs/Matplotlib/Scatter.md",
+    "docs/Matplotlib/Pie Chart.md",
+    "docs/Matplotlib/Line.md",
+    "docs/Matplotlib/Label.md",
+    "docs/Matplotlib/Import Library.md",
+    "docs/Matplotlib/Histogram.md",
+    "docs/Matplotlib",
+    "docs/Statistik",
+    "docs/Pandas",
+    "docs/Open CV",
+    "docs/Numpy",
+    "docs/Python/New Text Document.txt",
+    "docs/Python",
+    "docs/Images/Block & Inline-2.png",
+    "docs/Images/Block & Inline-1.png",
+    "docs/Images/Block & Inline.png",
+    "docs/Images/Pasted image 20260403113249.png",
+    "Pasted image 20260403113109.png"
+  ]
+}

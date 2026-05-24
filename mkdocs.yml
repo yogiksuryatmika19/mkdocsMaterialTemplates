@@ -1,0 +1,45 @@
+site_name: Yogi Suryatmika
+site_url: https://mydomain.org/mysite
+
+theme:
+    name: material
+    palette:
+        scheme: slate
+        primary: black
+        accent: blue
+
+    features:
+        - navigation.tabs
+        - navigation.tabs.sticky
+        - navigation.tracking
+        - navigation.sections
+        - toc.follow
+        - content.code.copy
+        - navigation.path
+
+markdown_extensions:
+    - pymdownx.highlight:
+          anchor_linenums: true
+          line_spans: __span
+          pygments_lang_class: true
+    - pymdownx.inlinehilite
+    - pymdownx.snippets
+    - pymdownx.superfences
+    - toc:
+          permalink: true
+
+plugins:
+    - search
+    - awesome-pages
+
+extra_css:
+    - stylesheets/extra.css
+
+extra_javascript:
+    - javascripts/extra.js
+
+copyright: Copyright &copy; 2026 - Yogi Suryatmika
+extra:
+    social:
+        - icon: fontawesome/brands/github
+          link: https://github.com/yogiksuryatmika19

@@ -1,0 +1,313 @@
+@media screen and (min-width: 1280px) {
+    html {
+        font-size: 18px;
+    }
+
+    /* --------------------------------- global --------------------------------- */
+    .md-grid {
+        min-width: 100%;
+    }
+
+    .md-main {
+        background-color: #14151a;
+    }
+
+    .md-main__inner {
+        margin-top: 0;
+    }
+
+    .md-content {
+        min-height: 100vh;
+        padding-top: 30px;
+        color: hsla(225deg, 15%, 90%, 0.56);
+        flex: 7;
+        border-left: 1px solid #272a35;
+        border-right: 1px solid #272a35;
+        margin-left: 30px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 100px;
+    }
+
+    /* --------------------------------- header --------------------------------- */
+    .md-header__inner {
+        padding: 5px 10px;
+        height: 50px;
+    }
+
+    .md-tabs {
+        overflow-x: auto;
+        background-color: #0e0f13 !important;
+        padding: 0px 10px;
+    }
+
+    .md-tabs__link:hover {
+        color: hsla(225deg, 15%, 90%, 0.56) !important;
+    }
+
+    .md-search__inner {
+        min-width: 300px;
+    }
+
+    .md-nav__title,
+    .md-nav__link,
+    .md-nav__link--passed {
+        box-shadow: none !important;
+        background: none !important;
+        color: hsla(225deg, 15%, 90%, 0.56) !important;
+        margin-bottom: 5px;
+    }
+
+    .md-nav__link--active,
+    .md-nav__link.clicked,
+    .md-nav--secondary .md-nav__link--active {
+        color: white !important;
+    }
+
+    .md-nav__link:hover {
+        color: hsla(225deg, 15%, 96%, 0.7) !important;
+    }
+
+    .md-nav__item,
+    .md-nav__item--active {
+        box-shadow: none !important;
+        background: none !important;
+        color: hsla(225deg, 15%, 90%, 0.56) !important;
+    }
+
+    .md-nav--lifted
+        > .md-nav__list
+        > .md-nav__item--active
+        > .md-nav__link:not(.md-nav__container) {
+        display: none;
+    }
+
+    /* ---------------------------------- body ---------------------------------- */
+
+    .md-sidebar--primary {
+        padding-left: 10px;
+        flex: 2;
+    }
+
+    .md-sidebar--scrollwrap {
+        min-height: 100% !important;
+    }
+
+    .md-sidebar--secondary {
+        padding-top: 30px;
+        flex: 3;
+    }
+
+    .md-sidebar--secondary .md-sidebar__scrollwrap {
+        padding-left: 10px;
+        border-right: 1px solid #272a35;
+        margin-right: 30px;
+    }
+
+    .md-sidebar__inner {
+        border-right: 1px solid #272a35;
+    }
+
+    .md-nav--secondary .md-nav__title[for="__toc"] {
+        text-decoration: underline;
+        text-underline-offset: 3px;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+    }
+
+    /* --------------------------------- footer --------------------------------- */
+    .md-footer-meta__inner {
+        display: none;
+        visibility: hidden;
+    }
+
+    nav.md-nav[data-md-level="2"] {
+        margin-bottom: 30px;
+    }
+
+    .md-nav__item--section > label {
+        text-decoration: underline;
+        text-underline-offset: 3px;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+    }
+
+    /* ----------------------------------- TOC ---------------------------------- */
+    .toc-highlight {
+        animation: fadeHighlight 3s ease-out;
+    }
+
+    @keyframes fadeHighlight {
+        0% {
+            background-color: rgba(39, 99, 245, 0.2);
+        }
+        100% {
+            background-color: transparent;
+        }
+    }
+    /* ---------------------------------- Table --------------------------------- */
+
+    /* kode inline di tabel tetap cyan */
+    .md-typeset__table code {
+        color: #6791e0 !important;
+        font-size: 0.65rem;
+    }
+
+    .md-typeset__table {
+        min-width: 100%;
+        margin-bottom: 50px;
+        overflow-x: scroll;
+    }
+
+    .md-typeset table:not([class]) {
+        display: table;
+        overflow-x: scroll;
+    }
+
+    .md-typeset table:not([class]) th {
+        font-size: 0.75rem;
+        background-color: #272a35;
+        color: hsla(225deg, 15%, 96%, 0.7);
+        padding: 5px 10px;
+    }
+
+    .md-typeset table:not([class]) td {
+        font-size: 0.75rem;
+        padding: 5px 10px;
+    }
+
+    .md-typeset table:not([class]) td,
+    .md-typeset table:not([class]) tr:hover {
+        background-color: transparent !important;
+    }
+
+    .md-typeset__table > button {
+        display: none;
+        visibility: hidden;
+    }
+
+    /* --------------------------------- heading -------------------------------- */
+    .md-typeset h2,
+    .md-typeset h3,
+    .md-typeset h4,
+    .md-typeset h5,
+    .md-typeset h6 {
+        margin-top: 50px;
+    }
+
+    /* heading spacing */
+    .md-typeset h1 {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        font-size: 2.5rem;
+        color: white;
+        font-family: "Times New Roman", Times, serif;
+        font-style: oblique;
+        text-align: left;
+    }
+
+    .md-typeset h2 {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.3rem;
+        text-decoration: underline;
+        text-underline-offset: 10px;
+        text-decoration-thickness: 1px;
+        text-decoration-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .md-typeset h3 {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.2rem;
+        text-decoration: underline;
+        text-underline-offset: 10px;
+        text-decoration-thickness: 1px;
+        text-decoration-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .md-typeset h4 {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.1rem;
+        text-decoration: underline;
+        text-underline-offset: 10px;
+        text-decoration-thickness: 1px;
+        text-decoration-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .md-typeset h5 {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1rem;
+        text-decoration: underline;
+        text-underline-offset: 10px;
+        text-decoration-thickness: 1px;
+        text-decoration-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .md-typeset h6 {
+        margin-top: 50px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.9rem;
+        text-decoration: underline;
+        text-underline-offset: 10px;
+        text-decoration-thickness: 1px;
+        text-decoration-color: rgba(255, 255, 255, 0.2);
+    }
+
+    /* ------------------------------- copy button ------------------------------ */
+    .md-code__button {
+        transform: scale(1.5);
+        color: hsla(225deg, 15%, 90%, 0.56) !important;
+    }
+
+    .md-code__button:hover {
+        color: white !important;
+    }
+
+    .md-typeset pre code:hover .md-code__button {
+        color: hsla(225deg, 15%, 90%, 0.56) !important;
+    }
+
+    /* --------------------------- code & inline code --------------------------- */
+    /* inline code */
+    .md-typeset code:not([class]) {
+        font-size: 0.7rem;
+        color: #6791e0;
+    }
+
+    /* code block spacing */
+    .md-typeset pre code {
+        padding: 1.25em;
+        line-height: 1.7;
+        margin-bottom: 50px;
+        font-size: 0.7rem;
+    }
+
+    /* border code block */
+    .md-typeset pre:not(.highlight) code {
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        background-color: #1e2129;
+    }
+
+    /* ---------------------------------- img ---------------------------------- */
+    .md-content__inner img {
+        display: block;
+        object-fit: cover;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        background-color: #272a35;
+        padding: 10px;
+        box-sizing: border-box;
+        margin: auto;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        min-width: 10rem;
+    }
+}
+
+/* -------------------------- Berlaku untuk semuaa -------------------------- */
+.md-footer-meta__inner {
+    display: none;
+    visibility: hidden;
+}
